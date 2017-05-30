@@ -1,0 +1,37 @@
+body {
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	border: 20px solid #bdc3c7;
+	font-family: "Source Sans Pro";
+}
+
+.main {
+	padding: 0 3%;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	font-size: 1.1em;
+}
+
+h2 {
+	font-size: 2.25em;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #2c3e50;
+}
+
+.section p:nth-of-type( 2 ) {
+	padding-left: 1.5%;
+	border-left: 6px solid #bdc3c7;
+}
+
+hr {
+	height: 1px;
+	color: #E6EDF2;
+	background: #E6EDF2;
+	border: 0;
+}

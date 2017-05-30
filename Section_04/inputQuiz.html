@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Input Quiz</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<div>
+			<label for="fName">First Name</label>
+			<input id="fName" name="first" type="text" placeholder="John" required>
+
+			<label for="lName">Last Name</label>
+			<input id="lName" name="last" type="text" placeholder="Smith" required>
+		</div>
+
+		<!-- Don't forget "for" for the radio choices! -->
+		<div>
+			<label for="radio-choice-1">Male</label>
+			<input type="radio" name="gender" id="radio-choice-1" value="MALE">
+
+			<label for="radio-choice-2">Female</label>
+			<input type="radio" name="gender" id="radio-choice-2" value="FEMALE">
+
+			<label for="radio-choice-3">Other</label>
+			<input type="radio" name="gender" id="radio-choice-3" value="OTHER">
+		</div>
+
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" placeholder="your email" required>
+
+			<label>Password:</label>
+			<input type="password" name="password" placeholder="your password" minlength=5 maxlength=10 required>
+		</div>
+
+		<div>
+			<label>Birthday:</label>
+			<select name="month" required>
+				<option disabled selected hidden>Month</option>
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+				<option value="Apr">Apr</option>
+				<option value="May">May</option>
+				<option value="Jun">Jun</option>
+				<option value="Jul">Jul</option>
+				<option value="Aug">Aug</option>
+				<option value="Sep">Sep</option>
+				<option value="Oct">Oct</option>
+				<option value="Nov">Nov</option>
+				<option value="Dec">Dec</option>
+			</select>
+			<select name="day" required>
+				<option disabled selected hidden>Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+			<select name="year" required>
+				<option disabled selected hidden>Year</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+			</select>
+		</div>
+
+		<div>
+			<label>I agree to the terms and conditions</label>
+			<input type="checkbox" required>
+		</div>
+
+		<input type="submit">
+
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+DECIMAL - Base 10
+0,1,2,3,4,5,6,7,8,9
+
+999
+001
+
+_ _ _
+
+BINARY - Base 2
+0,1
+
+111
+_ _ _
+
+HEXADECIMAL - Base 16
+0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+
+FFF
+
+000
+
+#_ _ _ _ _ _
+
+1st 2 = Red
+2nd 2 = Green
+3rd 2 = Blue
+
+_ _ _
+
+
+_ _ _
